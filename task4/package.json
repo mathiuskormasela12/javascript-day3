@@ -1,0 +1,11 @@
+{
+  "name": "task4",
+  "version": "1.0.0",
+  "description": "Tugas Javascript",
+  "main": "index.js",
+  "author": "Mathius",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
