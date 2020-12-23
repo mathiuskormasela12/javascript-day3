@@ -16,13 +16,7 @@ function handleFetch() {
       }
       return response.json();
     })
-    .then(response => {
-      if(response.length > 0) {
-        return editResults(response);
-      } else {
-        throw new Error(response);
-      }
-    });
+    .then(response => editResults(response));
 }
 
 module.exports = handleFetch;
